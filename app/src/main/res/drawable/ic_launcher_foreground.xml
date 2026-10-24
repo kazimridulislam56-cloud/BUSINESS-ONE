@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Receipt Card Body inside 66dp safe zone (21..87) -->
+    <path
+        android:fillColor="#FFFBEB"
+        android:pathData="M31,24h46c2.2,0 4,1.8 4,4v52l-5.5,-4l-5.5,4l-5.5,-4l-5.5,4l-5.5,-4l-5.5,4l-5.5,-4l-5.5,4l-5.5,-4V28C27,25.8 28.8,24 31,24z" />
+    <!-- Top Golden Accent Header -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M31,24h46c2.2,0 4,1.8 4,4v8H27v-8C27,25.8 28.8,24 31,24z" />
+    <!-- Ledger Lines -->
+    <path
+        android:fillColor="#0F3D3E"
+        android:pathData="M34,42h24v3.5H34zM62,42h12v3.5H62zM34,49h18v3.5H34zM62,49h12v3.5H62z" />
+    <!-- Barcode Stripes -->
+    <path
+        android:fillColor="#0B2B30"
+        android:pathData="M34,58h3v12h-3zM39,58h1.8v12H39zM43,58h4v12h-4zM49,58h2v12h-2zM53,58h3.5v12H53zM59,58h1.8v12H59zM63,58h4.5v12H63zM70,58h4v12h-4z" />
+    <!-- Laser Scan Line -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M23,63h62v2.5H23z" />
+</vector>

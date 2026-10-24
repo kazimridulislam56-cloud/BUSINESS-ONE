@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="320"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#092226" />
+                <item android:offset="0.6" android:color="#0F3D3E" />
+                <item android:offset="1.0" android:color="#1E6F5C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Decorative Geometric Grid Circles -->
+    <path
+        android:fillColor="#1AF59E0B"
+        android:pathData="M260,30m-70,0a70,70 0,1 1,140 0a70,70 0,1 1,-140 0" />
+    <path
+        android:fillColor="#14FFFFFF"
+        android:pathData="M60,150m-60,0a60,60 0,1 1,120 0a60,60 0,1 1,-120 0" />
+    <!-- Stylized Storefront Awning & Counter Illustration -->
+    <path
+        android:fillColor="#164E63"
+        android:pathData="M180,52h110c4.4,0 8,3.6 8,8v86c0,4.4 -3.6,8 -8,8H180c-4.4,0 -8,-3.6 -8,-8V60C172,55.6 175.6,52 180,52z" />
+    <!-- POS Terminal Screen -->
+    <path
+        android:fillColor="#FFFBEB"
+        android:pathData="M188,66h56c2.2,0 4,1.8 4,4v38c0,2.2 -1.8,4 -4,4h-56c-2.2,0 -4,-1.8 -4,-4V70C184,67.8 185.8,66 188,66z" />
+    <path
+        android:fillColor="#0F3D3E"
+        android:pathData="M192,74h30v5h-30zM192,84h48v4h-48zM192,92h36v4h-36z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M192,101h24v6h-24z" />
+    <!-- Thermal Printer Module -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M258,84h28c2.2,0 4,1.8 4,4v24c0,2.2 -1.8,4 -4,4h-28c-2.2,0 -4,-1.8 -4,-4V88C254,85.8 255.8,84 258,84z" />
+    <!-- Receipt Paper Emerging -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M262,64h20v22h-20z" />
+    <path
+        android:fillColor="#0B2B30"
+        android:pathData="M265,70h14v2h-14zM265,75h10v2h-10zM265,80h14v2h-14z" />
+    <!-- Inventory Boxes on Left -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M28,106h34v34H28z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M68,92h38v48H68z" />
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M42,74h28v32H42z" />
+</vector>
